@@ -48,10 +48,6 @@ const Footer = () => {
         <button onClick={scrollToTop} className={styles.backToTop}>
           Back to Top
         </button>
-        <p>
-          © {new Date().getFullYear()} All rights reserved for Smsm. Made with
-          ❤️ for Zeyad.
-        </p>
       </div>
     </footer>
   );
