@@ -8,23 +8,23 @@ const Project1 = () => {
   const galleryImages = [
     {
       image: "/assets/project1/1.png",
-      title: "Temperature Sensor",
+      title: "Flow Graph",
     },
     {
       image: "/assets/project1/2.png",
-      title: "Motor Controller",
+      title: "Output",
     },
     {
       image: "/assets/project1/3.png",
-      title: "LCD Interface",
+      title: "Schematic",
     },
     {
       image: "/assets/project1/4.png",
-      title: "Wireless Module",
+      title: "Circuit",
     },
     {
       image: "/assets/project1/5.png",
-      title: "Power Management",
+      title: "Circuit",
     },
   ];
 
