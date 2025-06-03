@@ -48,6 +48,42 @@ const Project5 = () => {
     View on GitHub
   </a>
 </div>
+      <style>
+.github-button-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.github-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  background-color: #24292e;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.github-button:hover {
+  background-color: #2d3339;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.github-button:active {
+  transform: translateY(0);
+}
+
+.github-icon {
+  margin-right: 10px;
+}
+</style>
 
         <iframe
           src="https://drive.google.com/file/d/1l2mDNZwmt0ML968mRwjJC5Syk5LYikcN/preview"
