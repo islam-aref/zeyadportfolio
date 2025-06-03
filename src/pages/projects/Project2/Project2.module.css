@@ -1,0 +1,128 @@
+/* Project1.module.css */
+
+.projectPage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.mainContent {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.projectTitle {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #c7cdf8;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.galleryCard {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.imageTitle {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 0;
+}
+
+.galleryItem {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.galleryItem:hover {
+  transform: translateY(-5px);
+}
+
+.galleryImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projectDescription {
+  margin: 3rem 0;
+}
+
+.videoEmbed {
+  width: 100%;
+  max-width: 940px;
+  height: 480px;
+  border: none;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+/* Modal Styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 90%;
+  max-height: 90%;
+  position: relative;
+}
+
+.modalImage {
+  max-width: 100%;
+  max-height: 80vh;
+  display: block;
+  margin: 1rem auto 0;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .mainContent {
+    padding: 1rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  .videoEmbed {
+    height: 300px;
+  }
+}
