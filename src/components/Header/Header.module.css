@@ -18,24 +18,6 @@
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
-/* Navigation Styles */
-.nav ul {
-  display: flex;
-  list-style: none;
-  gap: 2rem;
-}
-
-.nav a {
-  text-decoration: none;
-  color: #e0e0e0;
-  font-weight: 500;
-  transition: color 0.3s ease;
-}
-
-.nav a:hover {
-  color: #bb86fc;
-}
-
 /* Mobile Menu Styles */
 .menuButton {
   display: none;
