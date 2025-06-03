@@ -19,16 +19,16 @@ const Project3 = () => {
     },
     {
       image: "/assets/project3/Robot Challenge First Place.jpg",
-      title: "Robot Challenge First Place.jpg",
+      title: "Robot Challenge First Place",
     },
     {
       image: "/assets/project3/Stem Graduation Project.jpg",
-      title: "Stem Graduation Project.jpg",
+      title: "Stem Graduation Project",
     },
     {
       image:
         "/assets/project3/Testing the Computer Vision of the Mobile Manipulator.jpg",
-      title: "Testing the Computer Vision of the Mobile Manipulator.jpg",
+      title: "Testing the Computer Vision of the Mobile Manipulator",
     },
   ];
 
